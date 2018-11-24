@@ -1,0 +1,77 @@
+<div class="about" ng-controller="ResumeCtrl">
+	<div class="objectivediv">
+		<p class="contact objective"> OBJECTIVE </p>
+		<p class="para objdescription">
+			I am seeking a competitive and challenging environment where I can serve your organisation and establish an enjoyable career for myself.
+		</p>
+		<div class="objbutton">
+			<button onclick="window.open('../Document/Lishi_Nishod_Resume.pdf')">Download Cv<i class="fa fa-download"></i></button>
+		</div>
+	</div>
+	<div class="resumediv">
+		<div class="resumetag">
+			<ul class="ulList">
+				<li class="activeli" ng-click="ExpeFunc()">
+					<a>Experience</a>
+				</li>
+				<li class ng-click="EduFunc()">
+					<a>Education</a>
+				</li>
+			</ul>
+		</div>
+		<div class="resumedescription">
+			<div ng-hide="experience">
+				<ul class=" edulist">
+	               	<li>
+	               		<i class="fa fa-briefcase"></i>
+	               		<h2>Experience</h2>
+	               	</li>
+	           	 	<li>
+	               		<i class="circle fa fa-circle"></i>
+	           	 		<h3>Wells Fargo (Feb, 2017 - Present)</h3>
+	           	 		<h4>Software Analyst</h4>
+	           	 		<p class="resumePara">Working on UI application, which is basically for risk, pricing and analysis of trade for equity derivatives. Modified existing application to correct errors and improve performance. Developed code fixes and enhancements for inclusion in future code releases and patches. Developed new features for the existing application. 
+	           	 		</p>
+	           	 	</li>
+	           	 	<li>
+	           	 		<i class="circle fa fa-circle"></i>
+	           	 		<h3>Ramco System (August, 2016 - Feb, 2017)</h3>
+	           	 		<h4>Analyst Programmer</h4>
+	           	 		<p class="resumePara">Worked in the field of application programming.Fixing defects (internal and customer) in software
+						application against requirement specification.Front end and backend designing of software application.               
+	           	 		</p>
+	           	 	</li>
+               </ul>
+			</div>
+			<div ng-hide="education">
+               <ul class=" edulist">
+	               	<li>
+	               		<i class="fa fa-graduation-cap"></i>
+	               		<h2>Education</h2>
+	               	</li>
+	           	 	<li>
+	               		<i class="circle fa fa-circle"></i>
+	           	 		<h3>National Institute of Technology, Bhopal  (2012 - 2016)</h3>
+	           	 		<p class="resumePara"> B.Tech in Computer Science </br>
+	           	 			7.45 CGPA
+	           	 		</p>
+	           	 	</li>
+	           	 	<li>
+	           	 		<i class="circle fa fa-circle"></i>
+	           	 		<h3>Senior Secondary School Certificate  (2011)                          
+	           	 		</h3>
+	           	 		<p class="resumePara">77.76% in CBSE boards               
+	           	 		</p>
+	           	 	</li>
+	           	 	<li>
+	           	 		<i class="circle fa fa-circle"></i>
+	           	 		<h3>Secondary School Certificate   (2009) 
+	           	 		</h3>
+	           	 		<p class="resumePara"> 80% in CBSE boards 
+	           	 		</p>
+	           	 	</li>
+               </ul>
+			</div>
+		</div>
+    </div>
+</div>

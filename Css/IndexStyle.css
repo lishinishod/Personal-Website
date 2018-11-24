@@ -1,0 +1,490 @@
+html, body {margin: 0px; padding:0px;}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.navbar{
+   	width: 100%;
+    background-color: #272728;
+    overflow: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar a{
+   float: left;
+   font-size: 20px;
+   padding: 17px;
+   color: white;
+   text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #b1cfe4;
+}
+
+.active {
+  background-color: rgb(24, 101, 128);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+  }
+}
+
+.bgImg{
+    background-image: url("../Photo/me.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position:fixed;
+    width:100%;
+    height:100%;
+    min-width: 50px;
+    background-attachment: fixed;
+}
+
+.intro{
+	position: absolute;
+	top: 38%;
+	left: 72%;
+}
+
+.p1{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+  margin: 0;
+}
+
+.p2{
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+  text-align: center;
+  margin: 0;
+}
+  
+.p3{
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+}
+
+.fa {
+	  color: white;
+    padding: 5px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about{
+  background-color: #7094ae;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.aboutImg{
+  position: absolute;
+  top: 20%;
+  height: 50%;
+  left:10%;
+  background-image: url("../Photo/me2.jpg");
+  border-radius: 50%;
+  width: 25%;
+  background-repeat: no-repeat;
+  background-size: 100% 50vh;
+  border-style: solid;
+  border-color: #28679b;
+}
+.aboutMe{
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  width: 53%;
+  height: 70%;
+}
+.aboutP{
+  color: #3a3a3a;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 48px;
+}
+span{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 6; /* To vertical center align text */
+}
+.s1{
+  background-color: #28679b;
+}
+.s2{
+  background-color: #f7b733;
+}
+.s3{
+  background-color: #f13c20;
+}
+
+span a{
+  text-decoration: none;
+  color: black;
+  display:block;    /*Anchor tag to cover complete span*/
+}
+
+.para{
+  font-size: 24px;
+  color: #3a3a3a;
+  font-style: italic;
+}
+
+.hire{
+  float: right !important;
+  background-color: rgb(24, 101, 128);
+  border-radius: 25px;
+  margin-right: 4%;
+}
+
+#map{
+  width: 35%;
+  height: 65%;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+
+.mapImg{
+  float:left;
+  width:100%;
+  height:100%;
+}
+.mapdiv{
+  height: 100%;
+  width: 42%;
+}
+.contact{
+  font-weight: bold;
+  color: #800040;
+  font-size: 48px;
+  position: absolute;
+  left: 5%;
+}
+.contactInfo{
+  position: absolute;
+  top:12%;
+  left: 45%;
+  height: 60%;
+  width: 50%;
+}
+.info{
+  position: relative;
+  top:25%;
+  width: 100%;
+  height:85%;
+}
+.info .fa{
+  color: black;
+}
+.getInTouch{
+  font-size: 36px;
+  position: absolute;
+  font-weight: bold;
+}
+.address{
+  font-size: 26px;
+  color: #3a3a3a;
+  position: relative;
+  left: 15%;
+  padding: 5px;
+  margin: 10px;
+}
+.mail{
+  font-size: 26px;
+  color: #3a3a3a;
+  position: relative;
+  left: 15%;
+  padding: 5px;
+  margin: 10px;
+}
+.skype{
+  font-size: 26px;
+  color: #3a3a3a;
+  position: relative;
+  left: 15%;
+  padding: 5px;
+  margin: 10px;
+}
+.phone{
+  font-size: 26px;
+  color: #3a3a3a;
+  position: relative;
+  left: 15%;
+  padding: 5px;
+  margin: 10px;
+}
+.follow{
+  display: inline-flex;
+  list-style-type: none;
+}
+.ulList{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.followdiv{
+  position: relative;
+  bottom: -15%;
+  right: -10%;
+  margin: 10px;
+  float: right;
+  display: inline-flex;
+}
+
+.followdiv p{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+.followdiv .fa{
+  color: black;
+  padding: 5px 0px 0px 0px;
+}
+@media screen and (max-width: 700px) {
+  .getInTouch{
+     font-size: 24px;
+  }
+  .info div{
+    font-size: 20px;
+  }
+  .followdiv p {
+    font-size: 20px;
+  }
+  .followdiv .fa{
+    font-size: 20px;
+  }
+}
+.objectivediv{
+ position: absolute;
+ height: 100%;
+ width: 40%
+}
+
+.resumediv{
+ position: absolute;
+ height:100%;
+ width: 60%;
+ left: 40%
+}
+
+@media screen and (max-width: 700px) {
+  .objectivediv {
+    position: relative;
+    width: 100%;
+  }
+  .resumediv{
+    position: relative;
+    left: 20%;
+    top: -35%;
+  }
+}
+.objective{
+  color: #ffc626;
+  margin: 20px;
+  top: 10%;
+}
+.objdescription{
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  font-size: 34px;
+}
+.objbutton{
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  height: 20%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.objbutton button{
+  height: 35px;
+  width: 165px;
+  background-color: #ffc626;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 16px;
+  padding: 1px 9px 1px 20px;
+  line-height: 35px;
+}
+.objbutton .fa{
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 11px;
+  height: 21px;
+  width: 21px;
+  float: right;
+  text-align: center;
+  line-height: 23px;
+  margin-top: 1px;
+}
+.ulList li{
+ padding: 10px 30px;
+ background-color: white;
+ margin: 30px 45px;
+}
+.ulList a{
+ font-size: 24px;
+ font-weight: bold;
+ display: block;
+}
+.ulList .activeli{
+  background-color: #ffc626;
+}
+.resumetag{
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resumedescription{
+  position: absolute;
+  top: 20%;
+  width: 99%;
+  height: 70%;
+}
+.resumedescription div{
+  position: absolute;
+  height: 98%;
+  width: 98%;
+  top: 1%;
+  left: 1%;
+}
+.edulist{
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  list-style-type: none;
+}
+.edulist li{
+ border-left:  solid 2px #ececec;
+ padding-bottom: 20px;
+ margin-left: 30px;
+}
+.edulist li:last-child{
+  border: 0;
+}
+.edulist h2{
+  display: inline-flex;
+  margin: 0px;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.edulist h3{
+  display: inline;
+  margin: 0px;
+  vertical-align: top;
+}
+
+.edulist h4{
+  padding-left: 54px;
+  margin: 0;
+}
+
+.resumedescription .fa{
+  color: black;
+  background-color: #ffc626;
+  border-radius: 50px;
+  font-size: 22px;
+  /*height: 34px;*/
+  width: 34px;
+  text-align: center;
+  line-height: 32px;
+  margin-left: -28px;
+  padding: 10px
+}
+.resumedescription .edulist .circle{
+  background-color: transparent;
+  font-size: 15px;
+  margin-left: -27px;
+  padding-top: 0;
+  line-height: 0;
+}
+.resumePara{
+  padding-left: 54px;
+  margin: 0;
+  font-size: 18px;
+}
+.like{
+  color: #ff6600;
+  font-size: 50px;
+  text-align: center;
+}
+.skills i{
+  color: #ff6600;
+  font-size: 35px;
+}
+.design{
+  text-align: center;
+  width: 60%;
+  position: absolute;
+  left: 20%
+}
+.design div{
+  display: inline-grid;
+}
+.img{
+ width: 80px;
+ height: 80px;
+ padding: 30px 50px 15px 50px;
+}
+.design p{
+  font-size: 22px;
+  margin: 0;
+  font-weight: bold;
+}
+.projectImg{
+  width: 30%;
+  height: 30%;
+  top: 10%;
+  left: 5%;
+  position: absolute;
+  border : 3px solid;
+  border-color: black;
+}
+.work{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.work h1{
+  font-size: 44px;
+}
+.work ul{
+  font-size: 30px;
+  text-align: left;
+  font-family: cursive;
+}

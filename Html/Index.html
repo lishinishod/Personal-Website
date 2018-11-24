@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../Css/IndexStyle.css">
+	<!-- angular script-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+	<!-- angular route script-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+  <div class="navbar">
+    <!-- <a href="#/Education" class="link"> Education </a> -->
+    <!-- <a href="#/Experience" class="link"> Experience </a> -->
+    <a href="#/Home" class="link active"><i class="fa fa-fw fa-home"></i></a>
+    <a href="#/AboutMe" class="link" id="abt"><i class="fa fa-user"></i> About Me </a>
+    <a href="#/Skills" class="link"><i class="fa fa-diamond"></i> Skills </a>
+    <a href="#/Projects" class="link"><i class="fa fa-briefcase"></i> Projects </a>
+    <a href="#/Resume" class="link"><i class="fa fa-file-text"></i> Resume </a> 
+    <a href="#/Contact" class="link"><i class="fa fa-phone"></i> Contact </a>
+    <a href="mailto:lishinishod@gmail.com" class="link hire"> Hire Me <i class="fa fa-telegram"></i></a>
+  </div>
+
+  <div ng-view>
+  <script type="text/javascript" src="../JS/app.js"></script>
+  <script type="text/javascript" src="../JS/Script.js"></script>
+</body>
+</html>
